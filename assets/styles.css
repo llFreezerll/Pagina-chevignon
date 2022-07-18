@@ -5,3 +5,8 @@
     text-align: center;
     position: relative;
 }
+.linea-dos {
+    background-color: white;
+    max-width: 100%;
+    height: auto;
+}
