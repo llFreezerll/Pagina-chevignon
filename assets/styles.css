@@ -41,18 +41,24 @@
 #men {
     width: 100%;
     height: 10%;
-    padding-bottom: 1%;
-    padding-top: 1%;
     border-radius: 0% !important;
+    border: none !important;
     color: azure !important;
+    text-align: center;
+    top: 290px !important;
 }
 #men img{
     width: 100%;
     height: 100%;
-    padding-bottom: 1%;
-    padding-top: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border: none !important;
     border-radius: 0% !important;
     color: azure !important;
+    
+}
+#text-position1{
+    top: 200px !important;
 }
 #linea-3 {
     background-color: rgb(255, 255, 255);
@@ -62,6 +68,16 @@
 }
 #linea-4{
     background-color: rgb(200, 203, 183);
+}
+#linea-5{
+    margin-bottom: 4%;
+}
+#linea-5 img{
+    width: 100%;
+    height: 70%;
+}
+#precio1 {
+    color: rgb(141, 118, 40);
 }
 
 #footer {
