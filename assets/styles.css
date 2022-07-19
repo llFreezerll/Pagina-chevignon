@@ -55,7 +55,6 @@
     border: none !important;
     border-radius: 0% !important;
     color: azure !important;
-    
 }
 #text-position1{
     top: 200px !important;
@@ -78,6 +77,10 @@
 }
 #precio1 {
     color: rgb(141, 118, 40);
+}
+.categorias img{
+    width: 100%;
+    height: 70%;
 }
 
 #footer {
