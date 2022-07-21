@@ -68,6 +68,9 @@
 #linea-4{
     background-color: rgb(200, 203, 183);
 }
+#linea-4 img{
+    width: 18% !important;
+}
 #linea-5{
     margin-bottom: 3%;
 }
@@ -94,6 +97,11 @@
     width: 280px;
     padding-left: 1%;
     margin-bottom: 2%;
+}
+#linea-6 {
+    background-color:rgb(100, 112, 46);
+    margin-top: 2%;
+    margin-bottom: 5%;
 }
 
 #footer {
