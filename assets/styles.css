@@ -90,6 +90,9 @@
     right: 380px !important;
     color: rgb(255, 255, 255);
 }
+#instagram img{
+    width: 180px;
+}
 
 #footer {
     background-color: black;
