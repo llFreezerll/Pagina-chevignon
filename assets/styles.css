@@ -110,7 +110,7 @@
 }
 #footer img {
     
-    max-height: 100vh;
+    max-height: 73vh;
     object-fit: cover;
     filter: opacity(20%);
 }
