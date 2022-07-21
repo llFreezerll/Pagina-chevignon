@@ -105,5 +105,19 @@
 }
 
 #footer {
+    position: relative;
     background-color: black;
+}
+#footer img {
+    
+    max-height: 100vh;
+    object-fit: cover;
+    filter: opacity(20%);
+}
+#footer .overlay2{
+    position: absolute;
+    color: aliceblue;
+    top: 10%;
+    
+    height: 20%;
 }
