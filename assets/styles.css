@@ -16,6 +16,9 @@
     object-fit: cover;
     filter: grayscale(70%);
 }
+#logo{
+    width: 20%;
+}
 #carousel {
     position: relative;
 }
@@ -45,7 +48,7 @@
     border: none !important;
     color: azure !important;
     text-align: center;
-    top: 290px !important;
+    top: 300px !important;
 }
 #men img{
     width: 100%;
@@ -110,7 +113,7 @@
 }
 #footer img {
     
-    max-height: 73vh;
+    width: 200%;
     object-fit: cover;
     filter: opacity(20%);
 }
