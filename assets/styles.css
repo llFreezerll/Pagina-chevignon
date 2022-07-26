@@ -96,6 +96,8 @@
    width: 100%;
 }
 #linea-55 button:hover{
+    display: inline-block;
+    padding: 15px 5px ;
    background-color: black;
 }
 #linea-55 button{
