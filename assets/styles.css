@@ -95,6 +95,12 @@
 #linea-55 img{
    width: 100%;
 }
+#linea-55 button:hover{
+   background-color: black;
+}
+#linea-55 button{
+   border-radius: 0%;
+}
 #precio1 {
     color: rgb(141, 118, 40);
 }
