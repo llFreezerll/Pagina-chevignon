@@ -124,12 +124,24 @@
     height: 100%;
 }
 #categorias .overlay1{
-    width: 10%;
+    width: 50%;
     height: 30%;
     position: absolute;
     top: 150px !important;
-    right: 380px !important;
+    right: 250px !important;
     color: rgb(255, 255, 255);
+}
+#categorias .overlay1 button{
+    border-radius: 0%;
+    background-color: white;
+    color: black;
+    visibility: hidden;
+}
+#categorias .overlay1:hover button{
+  visibility: visible;
+}
+#categorias .overlay1 button:hover{
+    background-color:rgb(100, 112, 46) ;
 }
 #instagram img{
     width: 100%;
@@ -260,16 +272,19 @@
     z-index: 1;
 }
 .capa1 button {
+    transition: 800ms ease-out;
     visibility: hidden;
     border-radius: 0%;
     background-color: white;
-    color: black;  
+    color: black;
+    
 }
 .capa1 button:hover {
-    visibility: visible;
     background-color: rgb(100, 112, 46);
+    transition: 300ms ease-out;
 }
 .capa1:hover button {
+    transition: 800ms ;
     visibility: visible;
     
 }
