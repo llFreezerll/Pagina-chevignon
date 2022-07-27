@@ -96,6 +96,7 @@
 #linea-5 img{
     width: 100%;
     height: 70%;
+    width: 350px;
 }
 #linea-55{
     width: 100%;
@@ -173,18 +174,18 @@
     width: 100%; 
 }
 #footer .overlay p {
-    font-size: 15px ;
+    font-size: 25px ;
 }
 #footer .overlay button {
     position: absolute;
-    font-size: 10px ;
+    font-size: 15px ;
     border-radius: 0;
     padding: 10px 65px;
     margin: 22px;
     right: 5%;
 }
 #footer .s-cliente ~p {
-    font-size: 10px;
+    font-size: 20px;
 
 }
 #footer img {
@@ -291,7 +292,7 @@
 .prueba img {
     width: 100%;
     height: 100%;
-    height: 270px;
+    height: 370px;
 }
 .prueba2 img{
     width: 100%;
