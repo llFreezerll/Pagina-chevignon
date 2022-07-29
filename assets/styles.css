@@ -105,11 +105,13 @@
 }
 #linea-55 button{
     border-radius: 0%;
+    height: 50px;
+    background-color: rgb(88, 79, 79);
  }
-#linea-56 button:hover{
+#linea-55 button:hover{
     display: inline-block;
     transition: 400ms ease-out;
-    padding: 15px 5px ;
+    padding: 11px 5px ;
    background-color: black;
 }
 #linea-56 img{
