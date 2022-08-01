@@ -417,3 +417,38 @@
     visibility: visible;
     
 }
+.instg ul figure {
+    margin: 0;
+    padding: 0;
+  }
+  .instg ul {
+    list-style: none;
+    display: flex;
+  }
+  .instg ul li {
+    width: 20%;
+  }
+  .instg ul li figure {
+    padding: 5px;
+    position: relative
+  }
+  .instg ul li figure:hover figcaption{
+    display: block;
+    transition: 900ms ;
+  }
+  .instg ul li figcaption{
+    display: none;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    bottom: 5px;
+    right: 5px;
+    background: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    padding: 15px;
+    font: 20px/30px Verdana;
+    color: white;
+  }
+  .instg img {
+    width: 100%;
+  }
