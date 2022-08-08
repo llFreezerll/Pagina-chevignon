@@ -22,6 +22,11 @@ html {
     color: black;
     padding: 0px 0px 6px;
 }
+.menu-central ul li a {
+    padding-right: black;
+    color: black;
+}
+
 #main .carousel-inner img {
     height: 100%;
     object-fit: cover;

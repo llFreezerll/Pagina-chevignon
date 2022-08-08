@@ -30,7 +30,7 @@ html {
 .logo button {
     border: 0;       
 }
-.menu-central ul li {
-    background-color: aqua;
+.menu-central ul li a {
+    
     border-right-color: black;
 }
