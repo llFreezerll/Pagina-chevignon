@@ -1,9 +1,14 @@
 html {
     box-sizing: border-box;
+    background-color: black;
+}
+body {
+    background-color: black;
 }
 *,
 *::before,
-*::after{
+*::after
+{
     box-sizing: inherit;
 }
 .linea-uno {
@@ -18,19 +23,69 @@ html {
 .linea-dos {
     background-color: rgb(241, 239, 239) !important;
     max-width: 100%;
-    min-width: 20%;
+    min-width: auto;
     font-size:larger;
     color: black;
     padding: 0px 0px 6px;
 }
 #logo {
-    width: 80%;
-    text-align: end;
+    max-height: 50px;
+    
 }
 .logo button {
-    border: 0;       
+    border: none;       
 }
-.menu-central ul li a {
+.menu-2 {
+    flex-direction: row;
+}
+#menu-3 {
+    flex-direction: row;
+}
+#menu-3 li{
+    font-weight:300;
+    color: black;
+}
+
+
+#footer {
+    position: relative;
+    background-color: black;
+    margin-top: 125px;
+}
+#footer .overlay{
+    position: absolute;
+    color: aliceblue;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    z-index: 1;
+}
+#footer .overlay img{
+    width: 100%; 
+}
+#footer .overlay p {
+    font-size: 25px ;
+}
+#footer .overlay button {
+    position: absolute;
+    font-size: 15px ;
+    border-radius: 0;
+    padding: 10px 65px;
+    margin: 22px;
+    right: 5%;
+}
+#footer .s-cliente ~p {
+    font-size: 20px;
+
+}
+#footer img {
     
-    border-right-color: black;
+    width: 100%;
+    object-fit: cover;
+    filter: opacity(20%);
+}
+.s-cliente {
+    color: black;
 }
